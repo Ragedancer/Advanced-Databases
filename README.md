@@ -10,7 +10,6 @@ Advanced Databases. Fall 2019. This repository is an accumulation of all databas
 
 - **CH 1 Diagram.PNG** (A simple PNG displaying the E-R diagram)
 
-- - -
 
 ### Chapter 2
 - - -
@@ -20,13 +19,12 @@ Advanced Databases. Fall 2019. This repository is an accumulation of all databas
 
 - **Full Commit.PNG** (As requested by the teacher. Take a screenshot of the Drop and Create messages along with the commit processed.)
 
-- - -
 
 
 ### Repo Location
 - - -
 [Advanced-Databases Repo](https://github.com/Ragedancer/Advanced-Databases)
-- - -
+
 
 ### Tools Used
 - - -
