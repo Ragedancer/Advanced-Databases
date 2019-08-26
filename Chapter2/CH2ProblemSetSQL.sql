@@ -40,10 +40,12 @@ CONSTRAINT Stock_ID_PK PRIMARY KEY (Stock_ID));
 
 CREATE TABLE Stock_ItemOrder
 (OrderLineItem VarChar(24),
-Stock_ID Number(5) REFERENCES Stock (Stock_ID),
-Order_ID Number(5) REFERENCES ItemOrder (Order_ID),
+Stock_ID Number(5),
+Order_ID Number(5) ,
 Num_Ordered Number(2),
-CONSTRAINT Stock_ItemOrder_PK PRIMARY KEY ((Stock_ID),(Order_ID)));
+CONSTRAINT Stock_ItemOrder_PK PRIMARY KEY (Stock_ID,Order_ID),
+ CONSTRAINT Stock_ID_FK FOREIGN KEY (Stock_ID) REFERENCES Stock(Stock_ID),
+ CONSTRAINT Order_ID_FK FOREIGN KEY (Order_ID) REFERENCES ItemOrder(Order_ID));
 
 
 -- Making the Sandwiches
