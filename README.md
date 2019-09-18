@@ -19,7 +19,25 @@ Fall 2019. This repository is an accumulation of all databases, Astah documents,
 
 - **Full Commit.PNG** (As requested by the teacher. Take a screenshot of the Drop and Create messages along with the commit processed.)
 
+### Chapter 3
+- - -
+- **CH 1 Diagram.PNG** (A simple PNG displaying the E-R diagram.)
 
+- **CH3ProblemSetSQL** (Take the tables created in Chapter 2 and insert data. Then display the tables created.)
+
+- **Chapter 3 Problem Set.pdf** (Assigned to insert data into tables and then display.)
+
+- **Full commit of everything.docx** (Word document with screenshots of tables.)
+
+### Chapter 4
+- - -
+- **Ch4 practice.sql** (Simple practice statements for what was learned in Chapter 4.)
+
+- **CHAPTER 4 PROBLEM SET.pdf** (Write statements as described in questions, then create queries from tables we filled in Chapter 3.)
+
+- **Groom_Samuel_Ch4_ProblemSet.sql** (Statements written as assigned in CHAPTER 4 PROBLEM SET.)
+
+- **SemesterProjectQueries.sql** (Queries written as assigned in CHAPTER 4 PROBLEM SET.)
 
 ### Repo Location
 - - -
