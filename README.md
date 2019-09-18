@@ -1,6 +1,6 @@
 # Advanced-Databases
 ## Description
-Advanced Databases. Fall 2019. This repository is an accumulation of all databases, Astah documents, and SQL document created and used in ITEC 4200 Advanced Databases.
+Fall 2019. This repository is an accumulation of all databases, Astah documents, and SQL document created and used in ITEC 4200 Advanced Databases.
 
 ### Chapter 1
 - - -
@@ -31,6 +31,8 @@ Advanced Databases. Fall 2019. This repository is an accumulation of all databas
 [NotePad++](https://notepad-plus-plus.org/)
 
 [Oracle Live SQL](https://livesql.oracle.com/)
+
+[Oracle Database 11gR2 Express Edition](https://www.oracle.com/database/technologies/xe-prior-releases.html)
 
 [Astah Professional](http://astah.net/editions/professional)
 - - -
