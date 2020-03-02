@@ -25,11 +25,17 @@ The database will help users better understand how a sandwich shop works, beside
 - - -
 ## Project Outline 
 The project will contain the following major components: 
+
 •	Schema Design 
+
 •	Entity-Relationship Diagram 
+
 •	Table Implementation 
+
 •	Queries 
+
 •	Reports 	 
+
 ## Part II.  Schema Design 
  
 **ItemOrder** _*(Order_ID, Order_OrderDate, Order_DeliveryDate, Order_Cost, Order_PlacerFirstName, Order_PlacerLastName)*_
@@ -54,7 +60,7 @@ The project will contain the following major components:
              
  
   
-##Entity-Relationship Diagram 
+## Entity-Relationship Diagram 
 
 ![image](https://user-images.githubusercontent.com/45640527/75711469-5f432900-5cbe-11ea-8e77-abf8c4eb07d9.png)
 
