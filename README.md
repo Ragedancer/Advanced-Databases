@@ -2,42 +2,60 @@
 ## Description
 Fall 2019. This repository is an accumulation of all databases, Astah documents, and SQL document created and used in ITEC 4200 Advanced Databases.
 
-### Chapter 1
+### Objective 
+This database is designed to assist **Sandwich Shop** in keeping track of the sandwiches,
+ workers, ingredients and the shipments.
 - - -
-- **Chapter 1 Problem Set.pdf** (Assigned to make a 5 entity E-R diagram as a refresher for the course.)
-
-- **Ch1ProjectSet.asta** (Created a 6 entity E-R diagram, 5 distinct entities centered around sandwiches, makers, ingredients, stock and stockorder. With the 6th entity being an associative table for stock and stockorder.)
-
-- **CH 1 Diagram.PNG** (A simple PNG displaying the E-R diagram)
-
-
-### Chapter 2
+## Goals 
+The goal with this database project to provide a clean and organized way of storing and
+retrieving important data that’s important a small sandwich shop. Along with queries and 
+reports that hold important information about the ingredients, sandwich makers, and the 
+stock that can help keep better track of the company’s assets.   
 - - -
-- **CHAPTER 02 PROBLEM SET - CREATE tables of semester project.docx** (Assigned to take the E-R diagram, and using Oracle Live SQL to Drop and Create the tables.)
-
-- **CH2ProblemSetSQL.sql** (Created the tables with all E-R diagram data.)
-
-- **Full Commit.PNG** (As requested by the teacher. Take a screenshot of the Drop and Create messages along with the commit processed.)
-
-### Chapter 3
+## Solution 
+The solution is the creation of multiple database tables including the relationships between 
+those tables.  The tables consist of the following: ***Makers Sandwiches Ingredients, 
+***ItemOrder, Stock,*** and ***Stock_ItemOrder***.  These tables center on the key parts of a living 
+sandwich shop, along with an associative table Stock_ItemOrder which combines both Stock 
+and ItemOrder.  Using these tables, we can create the queries and reports that will provide 
+the necessary information.  It will be implemented in using Oracle 11g Express. 
 - - -
-- **CH 1 Diagram.PNG** (A simple PNG displaying the E-R diagram.)
-
-- **CH3ProblemSetSQL** (Take the tables created in Chapter 2 and insert data. Then display the tables created.)
-
-- **Chapter 3 Problem Set.pdf** (Assigned to insert data into tables and then display.)
-
-- **Full commit of everything.docx** (Word document with screenshots of tables.)
-
-### Chapter 4
+## Benefits to Users 
+The database will help users better understand how a sandwich shop works, besides just making sandwiches. It will help the user and company see how ordering shipments work, all the way down to what goes on a sandwich.
 - - -
-- **Ch4 practice.sql** (Simple practice statements for what was learned in Chapter 4.)
+## Project Outline 
+The project will contain the following major components: 
+•	Schema Design 
+•	Entity-Relationship Diagram 
+•	Table Implementation 
+•	Queries 
+•	Reports 	 
+## Part II.  Schema Design 
+ 
+**ItemOrder** _*(Order_ID, Order_OrderDate, Order_DeliveryDate, Order_Cost, Order_PlacerFirstName, Order_PlacerLastName)*_
+ 
+**Maker** _*(Maker_ID, Maker_FirstName, Maker_LastName, Maker_PhoneNumber, Maker_Age)*_
 
-- **CHAPTER 4 PROBLEM SET.pdf** (Write statements as described in questions, then create queries from tables we filled in Chapter 3.)
+**Stock** _*(Stock_ID, StockItem_Name, Ingredients_Wasted, Ingredients_Lost, Reorder_Qty)*_  
+ 
+**Stock_ItemOrder** (_*OrderLine_Item, Stock_ID, Order_ID, Num_Ordered)*_
+		FK Stock_ID -> STOCK
+		FK Order_ID ->ITEMORDER
 
-- **Groom_Samuel_Ch4_ProblemSet.sql** (Statements written as assigned in CHAPTER 4 PROBLEM SET.)
+**Sandwiches** _*(Item_Number, Sandwich_Type, Sandwich_DateMade, Maker_ID)*_
+		FK Maker_ID -> Maker 
+ 
+ 
+**Ingredients** _*(Ingredients_ID, Meat_Type, Vegetable_Type, Sauce_Type, Bread_Type, Item_Number)*_ 
+ 	 
+		FK Item_Number -> SANDWICHES 
+             
+ 
+  
+##Entity-Relationship Diagram 
 
-- **SemesterProjectQueries.sql** (Queries written as assigned in CHAPTER 4 PROBLEM SET.)
+![image](https://user-images.githubusercontent.com/45640527/75711469-5f432900-5cbe-11ea-8e77-abf8c4eb07d9.png)
+
 
 ### Repo Location
 - - -
