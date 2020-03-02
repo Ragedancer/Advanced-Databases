@@ -46,17 +46,17 @@ The project will contain the following major components:
  
 **Stock_ItemOrder** (_*OrderLine_Item, Stock_ID, Order_ID, Num_Ordered)*_
 	
-	FK Stock_ID -> STOCK
-	FK Order_ID ->ITEMORDER
+•	FK Stock_ID -> STOCK
+•	FK Order_ID ->ITEMORDER
 
 **Sandwiches** _*(Item_Number, Sandwich_Type, Sandwich_DateMade, Maker_ID)*_
 		
-	FK Maker_ID -> Maker 
+•	FK Maker_ID -> Maker 
  
  
 **Ingredients** _*(Ingredients_ID, Meat_Type, Vegetable_Type, Sauce_Type, Bread_Type, Item_Number)*_ 
  	 
-	FK Item_Number -> SANDWICHES 
+•	FK Item_Number -> SANDWICHES 
              
  
   
