@@ -4,7 +4,7 @@ workers, ingredients and the shipments.
 
 ## Goals 
 The goal with this database project to provide a clean and organized way of storing and
-retrieving important data that’s important a small sandwich shop. Along with queries and 
+retrieving important data that’s important to a small sandwich shop. Along with queries and 
 reports that hold important information about the ingredients, sandwich makers, and the 
 stock that can help keep better track of the company’s assets.   
 
