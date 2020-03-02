@@ -1,11 +1,7 @@
-# Advanced-Databases
-## Description
-Fall 2019. This repository is an accumulation of all databases, Astah documents, and SQL document created and used in ITEC 4200 Advanced Databases.
+## Objective 
+This database is designed to assist **Sandwich Shop** in keeping track of the sandwiches, 
+workers, ingredients and the shipments.
 
-### Objective 
-This database is designed to assist **Sandwich Shop** in keeping track of the sandwiches,
- workers, ingredients and the shipments.
-- - -
 ## Goals 
 The goal with this database project to provide a clean and organized way of storing and
 retrieving important data that’s important a small sandwich shop. Along with queries and 
@@ -47,6 +43,7 @@ The project will contain the following major components:
 **Stock_ItemOrder** (_*OrderLine_Item, Stock_ID, Order_ID, Num_Ordered)*_
 	
 •	FK Stock_ID -> STOCK
+
 •	FK Order_ID ->ITEMORDER
 
 **Sandwiches** _*(Item_Number, Sandwich_Type, Sandwich_DateMade, Maker_ID)*_
