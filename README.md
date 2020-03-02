@@ -10,7 +10,7 @@ stock that can help keep better track of the company’s assets.
 
 ## Solution 
 The solution is the creation of multiple database tables including the relationships between 
-those tables.  The tables consist of the following: ***Makers Sandwiches Ingredients, 
+those tables.  The tables consist of the following: ***Makers Sandwiches Ingredients, ***
 ***ItemOrder, Stock,*** and ***Stock_ItemOrder***.  These tables center on the key parts of a living 
 sandwich shop, along with an associative table Stock_ItemOrder which combines both Stock 
 and ItemOrder.  Using these tables, we can create the queries and reports that will provide 
