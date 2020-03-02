@@ -11,7 +11,7 @@ The goal with this database project to provide a clean and organized way of stor
 retrieving important data that’s important a small sandwich shop. Along with queries and 
 reports that hold important information about the ingredients, sandwich makers, and the 
 stock that can help keep better track of the company’s assets.   
-- - -
+
 ## Solution 
 The solution is the creation of multiple database tables including the relationships between 
 those tables.  The tables consist of the following: ***Makers Sandwiches Ingredients, 
@@ -19,10 +19,10 @@ those tables.  The tables consist of the following: ***Makers Sandwiches Ingredi
 sandwich shop, along with an associative table Stock_ItemOrder which combines both Stock 
 and ItemOrder.  Using these tables, we can create the queries and reports that will provide 
 the necessary information.  It will be implemented in using Oracle 11g Express. 
-- - -
+
 ## Benefits to Users 
 The database will help users better understand how a sandwich shop works, besides just making sandwiches. It will help the user and company see how ordering shipments work, all the way down to what goes on a sandwich.
-- - -
+
 ## Project Outline 
 The project will contain the following major components: 
 
@@ -46,17 +46,17 @@ The project will contain the following major components:
  
 **Stock_ItemOrder** (_*OrderLine_Item, Stock_ID, Order_ID, Num_Ordered)*_
 	
-		FK Stock_ID -> STOCK
-		FK Order_ID ->ITEMORDER
+	FK Stock_ID -> STOCK
+	FK Order_ID ->ITEMORDER
 
 **Sandwiches** _*(Item_Number, Sandwich_Type, Sandwich_DateMade, Maker_ID)*_
 		
-		FK Maker_ID -> Maker 
+	FK Maker_ID -> Maker 
  
  
 **Ingredients** _*(Ingredients_ID, Meat_Type, Vegetable_Type, Sauce_Type, Bread_Type, Item_Number)*_ 
  	 
-		FK Item_Number -> SANDWICHES 
+	FK Item_Number -> SANDWICHES 
              
  
   
